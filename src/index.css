@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./img/toys1.jpg");
+/* background: no-repeat; */
+  background-size: cover; 
+}
+#inputState, #inputAddress, #inputPassword4, #inputEmail4,#id_name
+{background-color: #ffffffa3;}
+
+Form{
+  margin-top: 10%;
+  width: 60%;
+  /* border: 1px solid black;
+  border-radius: 2cm; 
+  border-spacing: 50;
+  border-left:0; */
+}
+.btn-primary {
+width: 50%;
+}
+.div-form{
+  padding: 15px 25px;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* .offcanvas ,.offcanvas-end, .show{
+  background-color: #e9f2f100;
+} */
+
+/* button {
+  color: #2d6aaa;
+  background-color: #f8f9fa;
+  border-color: #0d6efd} */
+  
+/* .footer {
+  text-align: center;
+  
+} */
